@@ -1,0 +1,204 @@
+2022-11-24 18:15:13.143  INFO 9456 --- [main] com.lzl.StorageManageSystemApplication   : Starting StorageManageSystemApplication on DESKTOP-2QKMBC7 with PID 9456 (D:\JAVA\project\StorageManageSystem\target\classes started by 26605 in D:\JAVA\project\StorageManageSystem)
+2022-11-24 18:15:13.146  INFO 9456 --- [main] com.lzl.StorageManageSystemApplication   : No active profile set, falling back to default profiles: default
+2022-11-24 18:15:13.185  WARN 9456 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-11-24 18:15:14.034  INFO 9456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-24 18:15:14.039  INFO 9456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 18:15:14.039  INFO 9456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-11-24 18:15:14.092  INFO 9456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 18:15:14.092  INFO 9456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 921 ms
+2022-11-24 18:15:15.155  INFO 9456 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-24 18:15:15.268  INFO 9456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-24 18:15:15.460  INFO 9456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 18:15:15.461  INFO 9456 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-24 18:15:15.467  INFO 9456 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-24 18:15:15.484  INFO 9456 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-24 18:15:15.554  INFO 9456 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2022-11-24 18:15:15.558  INFO 9456 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveOrUpdateUsingPOST_1
+2022-11-24 18:15:15.560  INFO 9456 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2022-11-24 18:15:15.564  INFO 9456 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveOrUpdateUsingPOST_2
+2022-11-24 18:15:15.566  INFO 9456 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_3
+2022-11-24 18:15:15.568  INFO 9456 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveOrUpdateUsingPOST_3
+2022-11-24 18:15:15.581  INFO 9456 --- [main] com.lzl.StorageManageSystemApplication   : Started StorageManageSystemApplication in 2.661 seconds (JVM running for 3.19)
+2022-11-24 18:16:45.645  INFO 9456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-24 18:16:45.645  INFO 9456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-24 18:16:45.652  INFO 9456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-11-24 18:17:12.168  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求地址:/api/login
+2022-11-24 18:17:12.168  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:12.169  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.LoginController,login
+2022-11-24 18:17:12.175  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求参数:["hsy123","456456"]
+2022-11-24 18:17:12.188  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectOne(..)
+2022-11-24 18:17:12.223  INFO 9456 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-24 18:17:12.320  INFO 9456 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-24 18:17:12.355  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:167 ms
+2022-11-24 18:17:12.361  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 业务层耗时:193 ms
+2022-11-24 18:17:13.415  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求地址:/api/menu
+2022-11-24 18:17:13.416  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求类型:GET
+2022-11-24 18:17:13.416  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.MenuController,menus
+2022-11-24 18:17:13.416  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:13.423  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:MenuMapper.selectByRoleId(..)
+2022-11-24 18:17:13.433  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:10 ms
+2022-11-24 18:17:13.442  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 业务层耗时:27 ms
+2022-11-24 18:17:28.718  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求地址:/api/login
+2022-11-24 18:17:28.719  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:28.719  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.LoginController,login
+2022-11-24 18:17:28.719  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求参数:["hsy123","456456"]
+2022-11-24 18:17:28.719  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectOne(..)
+2022-11-24 18:17:28.721  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:17:28.722  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 业务层耗时:4 ms
+2022-11-24 18:17:29.759  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求地址:/api/menu
+2022-11-24 18:17:29.759  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求类型:GET
+2022-11-24 18:17:29.759  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.MenuController,menus
+2022-11-24 18:17:29.759  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:29.759  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:MenuMapper.selectByRoleId(..)
+2022-11-24 18:17:29.763  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:4 ms
+2022-11-24 18:17:29.765  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 业务层耗时:6 ms
+2022-11-24 18:17:38.082  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list/no/params
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Dept/list/no/params
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleListNoParams
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.DeptController,queryDeptListNoParams
+2022-11-24 18:17:38.083  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:38.084  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求地址:/api/User/list
+2022-11-24 18:17:38.084  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:38.084  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.UserController,queryUserList
+2022-11-24 18:17:38.084  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,"",""]
+2022-11-24 18:17:38.089  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:38.091  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:38.093  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:38.095  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:6 ms
+2022-11-24 18:17:38.095  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:4 ms
+2022-11-24 18:17:38.097  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 业务层耗时:14 ms
+2022-11-24 18:17:38.098  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 业务层耗时:14 ms
+2022-11-24 18:17:38.100  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:7 ms
+2022-11-24 18:17:38.102  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 业务层耗时:20 ms
+2022-11-24 18:17:38.562  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list
+2022-11-24 18:17:38.563  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:38.563  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleList
+2022-11-24 18:17:38.563  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:17:38.563  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:38.565  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:17:38.565  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:17:39.082  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Dept/list/no/params
+2022-11-24 18:17:39.082  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list/no/params
+2022-11-24 18:17:39.082  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:39.082  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleListNoParams
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.DeptController,queryDeptListNoParams
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求地址:/api/User/list
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.UserController,queryUserList
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,"",""]
+2022-11-24 18:17:39.083  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:39.085  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:17:39.085  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:17:39.085  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:17:39.085  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:17:39.085  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:17:39.085  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 业务层耗时:2 ms
+2022-11-24 18:17:40.006  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list
+2022-11-24 18:17:40.006  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:40.006  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleList
+2022-11-24 18:17:40.006  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:17:40.006  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:40.009  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:3 ms
+2022-11-24 18:17:40.009  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求地址:/api/User/list
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.UserController,queryUserList
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list/no/params
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleListNoParams
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,"",""]
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:40.374  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:40.375  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Dept/list/no/params
+2022-11-24 18:17:40.375  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:17:40.375  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.DeptController,queryDeptListNoParams
+2022-11-24 18:17:40.375  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:17:40.375  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:17:40.376  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:17:40.376  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:1 ms
+2022-11-24 18:17:40.376  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 业务层耗时:2 ms
+2022-11-24 18:17:40.376  INFO 9456 --- [http-nio-8080-exec-9] com.lzl.aspect.WebLogAspect              : 业务层耗时:1 ms
+2022-11-24 18:17:40.380  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:6 ms
+2022-11-24 18:17:40.380  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 业务层耗时:6 ms
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list/no/params
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Dept/list/no/params
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleListNoParams
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求地址:/api/User/list
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.DeptController,queryDeptListNoParams
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.UserController,queryUserList
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,"",""]
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:00.139  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:00.141  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:18:00.142  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:18:00.142  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:3 ms
+2022-11-24 18:18:00.142  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:3 ms
+2022-11-24 18:18:00.142  INFO 9456 --- [http-nio-8080-exec-10] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:18:00.142  INFO 9456 --- [http-nio-8080-exec-7] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:18:03.548  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list
+2022-11-24 18:18:03.548  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:03.548  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleList
+2022-11-24 18:18:03.548  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:18:03.548  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:03.550  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:18:03.550  INFO 9456 --- [http-nio-8080-exec-2] com.lzl.aspect.WebLogAspect              : 业务层耗时:2 ms
+2022-11-24 18:18:04.433  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Dept/list
+2022-11-24 18:18:04.434  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:04.434  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.DeptController,queryDeptList
+2022-11-24 18:18:04.434  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:18:04.435  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:04.438  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:4 ms
+2022-11-24 18:18:04.438  INFO 9456 --- [http-nio-8080-exec-3] com.lzl.aspect.WebLogAspect              : 业务层耗时:5 ms
+2022-11-24 18:18:05.885  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list
+2022-11-24 18:18:05.886  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:05.886  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleList
+2022-11-24 18:18:05.886  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:18:05.886  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:05.888  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:18:05.889  INFO 9456 --- [http-nio-8080-exec-1] com.lzl.aspect.WebLogAspect              : 业务层耗时:4 ms
+2022-11-24 18:18:06.982  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Dept/list
+2022-11-24 18:18:06.983  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:06.983  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.DeptController,queryDeptList
+2022-11-24 18:18:06.983  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:18:06.983  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:06.985  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:2 ms
+2022-11-24 18:18:06.985  INFO 9456 --- [http-nio-8080-exec-4] com.lzl.aspect.WebLogAspect              : 业务层耗时:3 ms
+2022-11-24 18:18:08.195  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Role/list
+2022-11-24 18:18:08.196  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:08.196  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.RoleController,queryRoleList
+2022-11-24 18:18:08.196  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 请求参数:[1,10,null,null]
+2022-11-24 18:18:08.196  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:08.197  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:1 ms
+2022-11-24 18:18:08.197  INFO 9456 --- [http-nio-8080-exec-6] com.lzl.aspect.WebLogAspect              : 业务层耗时:2 ms
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Module/nodes
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求地址:/api/Module/list
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求类型:POST
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.MenuController,nodes
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求方法:com.lzl.controller.MenuController,menuList
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 请求参数:[]
+2022-11-24 18:18:13.595  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:MenuMapper.selectByRoleId(..)
+2022-11-24 18:18:13.596  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.DaoLogAspect              : 数据库开始执行:BaseMapper.selectList(..)
+2022-11-24 18:18:13.598  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:3 ms
+2022-11-24 18:18:13.599  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.DaoLogAspect              : 数据库执行耗时:4 ms
+2022-11-24 18:18:13.599  INFO 9456 --- [http-nio-8080-exec-5] com.lzl.aspect.WebLogAspect              : 业务层耗时:4 ms
+2022-11-24 18:18:13.600  INFO 9456 --- [http-nio-8080-exec-8] com.lzl.aspect.WebLogAspect              : 业务层耗时:5 ms
+2022-11-24 18:18:40.582  INFO 9456 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-24 18:18:40.584  INFO 9456 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-24 18:18:40.589  INFO 9456 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

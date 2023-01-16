@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzl.mapper.MenuMapper">
+
+    <resultMap id="BaseResultMap" type="com.lzl.pojo.Menu">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="icon" column="icon" jdbcType="VARCHAR"/>
+            <result property="menuName" column="menu_name" jdbcType="VARCHAR"/>
+            <result property="hasThird" column="has_third" jdbcType="VARCHAR"/>
+            <result property="url" column="url" jdbcType="VARCHAR"/>
+            <result property="pid" column="pid" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,icon,menu_name,
+        has_third,url,pid
+    </sql>
+
+    <select id="selectByRoleId" resultType="com.lzl.pojo.Menu">
+        select m.id,m.icon,m.menu_name menuName,m.has_third,m.url,m.pid
+        from role_menu rm,menu m where rm.menu_id=m.id and rm.role_id=#{roleId}
+    </select>
+</mapper>

@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/storage?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: family5378169
+
+
+jwt:
+  auth:
+    # 过期时间24小时
+    expireDate: 86400000
+    secret: 123456
+
+
+logging:
+  file:
+    path: info.log
+
+
+#mybatis-plus:
+  #mapper-locations:
